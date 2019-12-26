@@ -170,7 +170,7 @@ export const programLoanInfo = [
 	// update with program names and corresponding loan URLs with market segment code from Master Loan Parameters
 	{
 		name: '.NET Bootcamp',
-		url: 'https://sf.privateloan.studentloan.org/external/LoanApplication.do?lenderCode=SK11NET',
+		url: 'https://my.skills.fund/application?lenderCode=SK11NET',
 		loanInfo: {
 			// match loanInfo in first metro below
 			maxLoanAmt: 13500,
@@ -209,7 +209,7 @@ export const programLoanInfo = [
 	},
 	{
 		name: '.NET Hybrid',
-		url: 'https://sf.privateloan.studentloan.org/external/LoanApplication.do?lenderCode=SK1150NE19',
+		url: 'https://my.skills.fund/application?lenderCode=SK1150NE19',
 		loanInfo: {
 			// match loanInfo in first metro below
 			maxLoanAmt: 12500,
@@ -246,7 +246,7 @@ export const programLoanInfo = [
 	},
 	{
 		name: 'Cyber Security',
-		url: 'https://sf.privateloan.studentloan.org/external/LoanApplication.do?lenderCode=SK1150CS19',
+		url: 'https://my.skills.fund/application?lenderCode=SK1150CS19',
 		loanInfo: {
 			// match loanInfo in first metro below
 			maxLoanAmt: 20000,
@@ -283,7 +283,7 @@ export const programLoanInfo = [
 	},
 	{
 		name: 'Cyber Security Part-Time',
-		url: 'https://sf.privateloan.studentloan.org/external/LoanApplication.do?lenderCode=SK1150C19',
+		url: 'https://my.skills.fund/application?lenderCode=SK1150C19',
 		loanInfo: {
 			// match loanInfo in first metro below
 			maxLoanAmt: 19000,
@@ -320,7 +320,7 @@ export const programLoanInfo = [
 	},
 	{
 		name: 'Java',
-		url: 'https://sf.privateloan.studentloan.org/external/LoanApplication.do?lenderCode=SK11JA',
+		url: 'https://my.skills.fund/application?lenderCode=SK11JA',
 		loanInfo: {
 			// match loanInfo in first metro below
 			maxLoanAmt: 13500,
@@ -357,7 +357,7 @@ export const programLoanInfo = [
 	},
 	{
 		name: 'JavaScript',
-		url: 'https://sf.privateloan.studentloan.org/external/LoanApplication.do?lenderCode=SK11J',
+		url: 'https://my.skills.fund/application?lenderCode=SK11J',
 		loanInfo: {
 			// match loanInfo in first metro below
 			maxLoanAmt: 13500,
@@ -394,7 +394,7 @@ export const programLoanInfo = [
 	},
 	{
 		name: 'JavaScript Hybrid',
-		url: 'https://sf.privateloan.studentloan.org/external/LoanApplication.do?lenderCode=SK1150JS19',
+		url: 'https://my.skills.fund/application?lenderCode=SK1150JS19',
 		loanInfo: {
 			// match loanInfo in first metro below
 			maxLoanAmt: 12500,
@@ -431,7 +431,7 @@ export const programLoanInfo = [
 	},
 	{
 		name: 'Python',
-		url: 'https://sf.privateloan.studentloan.org/external/LoanApplication.do?lenderCode=SK1150PY19',
+		url: 'https://my.skills.fund/application?lenderCode=SK1150PY19',
 		loanInfo: {
 			// match loanInfo in first metro below
 			maxLoanAmt: 13500,
