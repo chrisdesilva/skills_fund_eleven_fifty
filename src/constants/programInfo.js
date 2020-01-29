@@ -70,7 +70,7 @@ export const faq = {
 	multCostOfLivingPrograms: false, // true if costOfLivingPrograms string has more than one program
 	interestOnly: true, // true if interest-only payments are an option
 	immediateRepayment: false, // true if immediate repayment is an option
-	multipleLoanLengths: true, // true if 36 and 60 month options are both available
+	multipleLoanLengths: false, // true if 36 and 60 month options are both available
 	multipleLoanTypes: false, // true if both IR and IO are available
 	multiPrograms: true, // only true if there are multiple programs
 	onlinePrograms: false, // true if at least one program is remote/online
@@ -175,7 +175,7 @@ export const programLoanInfo = [
 			// match loanInfo in first metro below
 			maxLoanAmt: 13500,
 			loanTerm36: true,
-			loanTerm60: true,
+			loanTerm60: false,
 			'0': {
 				// interest-only
 				k: 5,
@@ -196,7 +196,7 @@ export const programLoanInfo = [
 					// // match loanInfo to Program 1 above
 					maxLoanAmt: 13500,
 					loanTerm36: true,
-					loanTerm60: true,
+					loanTerm60: false,
 					'0': {
 						k: 5,
 						apr36: 11.16,
@@ -214,7 +214,7 @@ export const programLoanInfo = [
 			// match loanInfo in first metro below
 			maxLoanAmt: 12500,
 			loanTerm36: true,
-			loanTerm60: true,
+			loanTerm60: false,
 			'0': {
 				k: 5,
 				apr36: 10.94,
@@ -251,7 +251,7 @@ export const programLoanInfo = [
 			// match loanInfo in first metro below
 			maxLoanAmt: 20000,
 			loanTerm36: true,
-			loanTerm60: true,
+			loanTerm60: false,
 			'0': {
 				k: 5,
 				apr36: 11.16,
@@ -270,7 +270,7 @@ export const programLoanInfo = [
 					// match loanInfo to Program 3 loanInfo above
 					maxLoanAmt: 20000,
 					loanTerm36: true,
-					loanTerm60: true,
+					loanTerm60: false,
 					'0': {
 						k: 5,
 						apr36: 11.16,
@@ -288,7 +288,7 @@ export const programLoanInfo = [
 			// match loanInfo in first metro below
 			maxLoanAmt: 19000,
 			loanTerm36: true,
-			loanTerm60: true,
+			loanTerm60: false,
 			'0': {
 				k: 8,
 				apr36: 10.94,
@@ -307,7 +307,7 @@ export const programLoanInfo = [
 					// match loanInfo to Program 3 loanInfo above
 					maxLoanAmt: 19000,
 					loanTerm36: true,
-					loanTerm60: true,
+					loanTerm60: false,
 					'0': {
 						k: 8,
 						apr36: 10.94,
@@ -325,7 +325,7 @@ export const programLoanInfo = [
 			// match loanInfo in first metro below
 			maxLoanAmt: 13500,
 			loanTerm36: true,
-			loanTerm60: true,
+			loanTerm60: false,
 			'0': {
 				k: 5,
 				apr36: 11.16,
@@ -344,7 +344,7 @@ export const programLoanInfo = [
 					// match loanInfo to Program 3 loanInfo above
 					maxLoanAmt: 13500,
 					loanTerm36: true,
-					loanTerm60: true,
+					loanTerm60: false,
 					'0': {
 						k: 5,
 						apr36: 11.16,
@@ -362,7 +362,7 @@ export const programLoanInfo = [
 			// match loanInfo in first metro below
 			maxLoanAmt: 13500,
 			loanTerm36: true,
-			loanTerm60: true,
+			loanTerm60: false,
 			'0': {
 				k: 5,
 				apr36: 11.16,
@@ -381,7 +381,7 @@ export const programLoanInfo = [
 					// match loanInfo to Program 3 loanInfo above
 					maxLoanAmt: 13500,
 					loanTerm36: true,
-					loanTerm60: true,
+					loanTerm60: false,
 					'0': {
 						k: 5,
 						apr36: 11.16,
@@ -399,7 +399,7 @@ export const programLoanInfo = [
 			// match loanInfo in first metro below
 			maxLoanAmt: 12500,
 			loanTerm36: true,
-			loanTerm60: true,
+			loanTerm60: false,
 			'0': {
 				k: 8,
 				apr36: 10.94,
@@ -418,7 +418,7 @@ export const programLoanInfo = [
 					// match loanInfo to Program 3 loanInfo above
 					maxLoanAmt: 12500,
 					loanTerm36: true,
-					loanTerm60: true,
+					loanTerm60: false,
 					'0': {
 						k: 8,
 						apr36: 10.94,
@@ -436,7 +436,7 @@ export const programLoanInfo = [
 			// match loanInfo in first metro below
 			maxLoanAmt: 13500,
 			loanTerm36: true,
-			loanTerm60: true,
+			loanTerm60: false,
 			'0': {
 				k: 5,
 				apr36: 11.16,
@@ -455,7 +455,7 @@ export const programLoanInfo = [
 					// match loanInfo to Program 3 loanInfo above
 					maxLoanAmt: 13500,
 					loanTerm36: true,
-					loanTerm60: true,
+					loanTerm60: false,
 					'0': {
 						k: 5,
 						apr36: 11.16,
