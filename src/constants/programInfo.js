@@ -116,6 +116,12 @@ export const faq = {
       col: false,
       colAmount: "$4,500",
     },
+    {
+      programName: "UI/UX Design",
+      maxAmount: "$5,000",
+      col: false,
+      colAmount: "$4,500",
+    },
   ],
 }
 
@@ -471,6 +477,44 @@ export const programLoanInfo = [
           "Interest Only": {
             k: 6,
             apr36: 11.59,
+            apr60: 12.51,
+          },
+          "Immediate Repayment": null,
+        },
+      },
+    ],
+  },
+  {
+    name: "UI/UX Design",
+    url: "https://my.skills.fund/application?lenderCode=SK1150UIUX20",
+    loanInfo: {
+      // match loanInfo in first metro below
+      maxLoanAmt: 5000,
+      loanTerm36: true,
+      loanTerm60: false,
+      "Interest Only": {
+        k: 5,
+        apr36: 11.69,
+        apr60: 12.51,
+      },
+      "Immediate Repayment": null,
+    },
+    defaultLoanType: "Interest Only", // leave at 0 for interest-only, set to 1 for immediate repayment
+    showMetros: false,
+    showLoanTypes: false,
+    loanTypes: ["Interest Only"],
+    locations: ["Metro A", "Metro B", "Metro C"],
+    metros: [
+      {
+        location: "Metro A",
+        loanInfo: {
+          // match loanInfo to Program 3 loanInfo above
+          maxLoanAmt: 5000,
+          loanTerm36: true,
+          loanTerm60: false,
+          "Interest Only": {
+            k: 5,
+            apr36: 11.69,
             apr60: 12.51,
           },
           "Immediate Repayment": null,
